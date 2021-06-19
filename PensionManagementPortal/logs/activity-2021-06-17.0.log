@@ -1,0 +1,279 @@
+2021-06-17_19-14-32 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Starting PensionManagementPortalApplication using Java 1.8.0_191 on DESKTOP-O8QRH3N with PID 15604 (C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal\target\classes started by Parthik in C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal)
+2021-06-17_19-14-32 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - No active profile set, falling back to default profiles: default
+2021-06-17_19-14-32 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-17_19-14-32 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-17_19-14-32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-06-17_19-14-32 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-14-32 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-17_19-14-32 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-17_19-14-32 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-17_19-14-32 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2371 ms
+2021-06-17_19-14-32 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-17_19-14-32 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-06-17_19-14-32 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-14-32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-06-17_19-14-32 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Started PensionManagementPortalApplication in 3.896 seconds (JVM running for 5.622)
+2021-06-17_19-14-32 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-17_19-14-32 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-06-17_19-14-32 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-06-17_19-18-04 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Starting PensionManagementPortalApplication using Java 1.8.0_191 on DESKTOP-O8QRH3N with PID 15604 (C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal\target\classes started by Parthik in C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal)
+2021-06-17_19-18-04 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - No active profile set, falling back to default profiles: default
+2021-06-17_19-18-04 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-06-17_19-18-04 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-18-04 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-17_19-18-04 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-17_19-18-04 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-17_19-18-04 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 572 ms
+2021-06-17_19-18-04 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-17_19-18-04 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-06-17_19-18-04 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-18-04 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-06-17_19-18-04 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Started PensionManagementPortalApplication in 0.965 seconds (JVM running for 215.445)
+2021-06-17_19-18-04 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-06-17_19-18-07 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Starting PensionManagementPortalApplication using Java 1.8.0_191 on DESKTOP-O8QRH3N with PID 15604 (C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal\target\classes started by Parthik in C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal)
+2021-06-17_19-18-07 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - No active profile set, falling back to default profiles: default
+2021-06-17_19-18-07 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-06-17_19-18-07 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-18-07 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-17_19-18-07 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-17_19-18-07 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-17_19-18-07 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 337 ms
+2021-06-17_19-18-07 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-17_19-18-07 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-06-17_19-18-07 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-18-07 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-06-17_19-18-07 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Started PensionManagementPortalApplication in 0.572 seconds (JVM running for 217.886)
+2021-06-17_19-18-07 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-06-17_19-18-07 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-17_19-18-07 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-06-17_19-18-07 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-06-17_19-20-48 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Starting PensionManagementPortalApplication using Java 1.8.0_191 on DESKTOP-O8QRH3N with PID 15604 (C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal\target\classes started by Parthik in C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal)
+2021-06-17_19-20-48 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - No active profile set, falling back to default profiles: default
+2021-06-17_19-20-48 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-06-17_19-20-48 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-20-48 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-17_19-20-48 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-17_19-20-48 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-17_19-20-48 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 479 ms
+2021-06-17_19-20-48 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-17_19-20-48 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-06-17_19-20-48 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-20-48 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-06-17_19-20-48 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Started PensionManagementPortalApplication in 0.77 seconds (JVM running for 379.092)
+2021-06-17_19-20-48 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-06-17_19-20-51 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Starting PensionManagementPortalApplication using Java 1.8.0_191 on DESKTOP-O8QRH3N with PID 15604 (C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal\target\classes started by Parthik in C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal)
+2021-06-17_19-20-51 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - No active profile set, falling back to default profiles: default
+2021-06-17_19-20-51 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-06-17_19-20-51 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-20-51 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-17_19-20-51 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-17_19-20-51 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-17_19-20-51 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 388 ms
+2021-06-17_19-20-51 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-17_19-20-51 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-06-17_19-20-51 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-20-51 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-06-17_19-20-51 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Started PensionManagementPortalApplication in 0.615 seconds (JVM running for 381.72)
+2021-06-17_19-20-51 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-06-17_19-20-51 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-17_19-20-51 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-06-17_19-20-51 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2021-06-17_19-22-38 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Starting PensionManagementPortalApplication using Java 1.8.0_191 on DESKTOP-O8QRH3N with PID 15604 (C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal\target\classes started by Parthik in C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal)
+2021-06-17_19-22-38 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - No active profile set, falling back to default profiles: default
+2021-06-17_19-22-38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-06-17_19-22-38 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-22-38 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-17_19-22-38 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-17_19-22-38 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-17_19-22-38 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 355 ms
+2021-06-17_19-22-38 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-17_19-22-38 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-06-17_19-22-38 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-22-38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-06-17_19-22-38 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Started PensionManagementPortalApplication in 0.611 seconds (JVM running for 488.485)
+2021-06-17_19-22-38 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-06-17_19-22-38 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-17_19-22-38 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-06-17_19-22-38 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2021-06-17_19-23-27 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Starting PensionManagementPortalApplication using Java 1.8.0_191 on DESKTOP-O8QRH3N with PID 15604 (C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal\target\classes started by Parthik in C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal)
+2021-06-17_19-23-27 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - No active profile set, falling back to default profiles: default
+2021-06-17_19-23-27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-06-17_19-23-27 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-23-27 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-17_19-23-27 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-17_19-23-27 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-17_19-23-27 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 317 ms
+2021-06-17_19-23-27 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-17_19-23-27 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-06-17_19-23-27 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-23-27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-06-17_19-23-27 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Started PensionManagementPortalApplication in 0.504 seconds (JVM running for 537.21)
+2021-06-17_19-23-27 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-06-17_19-23-27 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-17_19-23-27 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-06-17_19-23-27 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-06-17_19-24-45 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Starting PensionManagementPortalApplication using Java 1.8.0_191 on DESKTOP-O8QRH3N with PID 15604 (C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal\target\classes started by Parthik in C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal)
+2021-06-17_19-24-45 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - No active profile set, falling back to default profiles: default
+2021-06-17_19-24-45 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-06-17_19-24-45 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-24-45 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-17_19-24-45 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-17_19-24-45 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-17_19-24-45 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 367 ms
+2021-06-17_19-24-45 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-17_19-24-45 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-06-17_19-24-45 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-24-45 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-06-17_19-24-45 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Started PensionManagementPortalApplication in 0.584 seconds (JVM running for 615.993)
+2021-06-17_19-24-45 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-06-17_19-24-50 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Starting PensionManagementPortalApplication using Java 1.8.0_191 on DESKTOP-O8QRH3N with PID 15604 (C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal\target\classes started by Parthik in C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal)
+2021-06-17_19-24-50 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - No active profile set, falling back to default profiles: default
+2021-06-17_19-24-50 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-06-17_19-24-50 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-24-50 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-17_19-24-50 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-17_19-24-50 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-17_19-24-50 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 417 ms
+2021-06-17_19-24-50 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-17_19-24-50 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-06-17_19-24-50 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-24-50 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-06-17_19-24-50 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Started PensionManagementPortalApplication in 0.616 seconds (JVM running for 620.637)
+2021-06-17_19-24-50 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-06-17_19-24-50 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-17_19-24-50 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-06-17_19-24-50 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2021-06-17_19-31-40 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Starting PensionManagementPortalApplication using Java 1.8.0_191 on DESKTOP-O8QRH3N with PID 15604 (C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal\target\classes started by Parthik in C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal)
+2021-06-17_19-31-40 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - No active profile set, falling back to default profiles: default
+2021-06-17_19-31-40 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-06-17_19-31-40 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-31-40 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-17_19-31-40 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-17_19-31-40 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-17_19-31-40 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 562 ms
+2021-06-17_19-31-40 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-17_19-31-40 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-06-17_19-31-40 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-31-40 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-06-17_19-31-40 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Started PensionManagementPortalApplication in 0.765 seconds (JVM running for 1031.279)
+2021-06-17_19-31-40 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-06-17_19-31-40 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-17_19-31-40 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-06-17_19-31-40 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-06-17_19-32-44 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Starting PensionManagementPortalApplication using Java 1.8.0_191 on DESKTOP-O8QRH3N with PID 15604 (C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal\target\classes started by Parthik in C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal)
+2021-06-17_19-32-44 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - No active profile set, falling back to default profiles: default
+2021-06-17_19-32-44 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-06-17_19-32-44 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-32-44 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-17_19-32-44 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-17_19-32-44 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-17_19-32-44 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 430 ms
+2021-06-17_19-32-44 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-17_19-32-44 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-06-17_19-32-44 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-32-44 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-06-17_19-32-44 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Started PensionManagementPortalApplication in 0.693 seconds (JVM running for 1094.909)
+2021-06-17_19-32-44 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-06-17_19-32-44 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-17_19-32-44 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-06-17_19-32-44 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2021-06-17_19-33-11 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Starting PensionManagementPortalApplication using Java 1.8.0_191 on DESKTOP-O8QRH3N with PID 15604 (C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal\target\classes started by Parthik in C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal)
+2021-06-17_19-33-11 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - No active profile set, falling back to default profiles: default
+2021-06-17_19-33-11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-06-17_19-33-11 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-33-11 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-17_19-33-11 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-17_19-33-11 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-17_19-33-11 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 307 ms
+2021-06-17_19-33-11 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-17_19-33-11 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-06-17_19-33-11 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-33-11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-06-17_19-33-11 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Started PensionManagementPortalApplication in 0.516 seconds (JVM running for 1121.984)
+2021-06-17_19-33-11 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-06-17_19-33-11 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-17_19-33-11 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-06-17_19-33-11 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-06-17_19-33-27 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Starting PensionManagementPortalApplication using Java 1.8.0_191 on DESKTOP-O8QRH3N with PID 15604 (C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal\target\classes started by Parthik in C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal)
+2021-06-17_19-33-27 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - No active profile set, falling back to default profiles: default
+2021-06-17_19-33-27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-06-17_19-33-27 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-33-27 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-17_19-33-27 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-17_19-33-27 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-17_19-33-27 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 463 ms
+2021-06-17_19-33-27 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-17_19-33-27 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-06-17_19-33-27 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-33-27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-06-17_19-33-27 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Started PensionManagementPortalApplication in 0.666 seconds (JVM running for 1138.199)
+2021-06-17_19-33-27 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-06-17_19-33-27 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-17_19-33-27 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-06-17_19-33-27 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2021-06-17_19-33-34 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Starting PensionManagementPortalApplication using Java 1.8.0_191 on DESKTOP-O8QRH3N with PID 15604 (C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal\target\classes started by Parthik in C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal)
+2021-06-17_19-33-34 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - No active profile set, falling back to default profiles: default
+2021-06-17_19-33-34 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-06-17_19-33-34 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-33-34 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-17_19-33-34 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-17_19-33-34 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-17_19-33-34 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 400 ms
+2021-06-17_19-33-34 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-17_19-33-34 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-06-17_19-33-34 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-33-34 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-06-17_19-33-34 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Started PensionManagementPortalApplication in 0.654 seconds (JVM running for 1144.953)
+2021-06-17_19-33-34 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-06-17_19-33-34 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-17_19-33-34 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-06-17_19-33-34 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2021-06-17_19-33-34 [RMI TCP Connection(27)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-06-17_19-35-10 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Starting PensionManagementPortalApplication using Java 1.8.0_191 on DESKTOP-O8QRH3N with PID 17396 (C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal\target\classes started by Parthik in C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal)
+2021-06-17_19-35-10 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - No active profile set, falling back to default profiles: default
+2021-06-17_19-35-10 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-17_19-35-10 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-17_19-35-10 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=d5c1c922-1559-3bc6-bf0e-1a7d63bb2969
+2021-06-17_19-35-10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-06-17_19-35-10 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-35-10 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-17_19-35-10 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-06-17_19-35-10 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-06-17_19-35-10 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-17_19-35-10 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2652 ms
+2021-06-17_19-35-10 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-17_19-35-10 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-17_19-35-10 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-17_19-35-10 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-06-17_19-35-10 [restartedMain] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-06-17_19-35-10 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-06-17_19-35-10 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 337 ms
+2021-06-17_19-35-10 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-35-10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-06-17_19-35-10 [restartedMain] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-06-17_19-35-10 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Started PensionManagementPortalApplication in 8.821 seconds (JVM running for 10.402)
+2021-06-17_19-35-10 [Thread-9] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-06-17_19-35-26 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Starting PensionManagementPortalApplication using Java 1.8.0_191 on DESKTOP-O8QRH3N with PID 17396 (C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal\target\classes started by Parthik in C:\Users\Parthik\eclipse-restapi-angular\PensionManagementPortal)
+2021-06-17_19-35-26 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - No active profile set, falling back to default profiles: default
+2021-06-17_19-35-26 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=d5c1c922-1559-3bc6-bf0e-1a7d63bb2969
+2021-06-17_19-35-26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-06-17_19-35-26 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-35-26 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-17_19-35-26 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-06-17_19-35-26 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-06-17_19-35-26 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-17_19-35-26 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 638 ms
+2021-06-17_19-35-26 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-17_19-35-26 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-06-17_19-35-26 [restartedMain] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-06-17_19-35-26 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-06-17_19-35-26 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-06-17_19-35-26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-06-17_19-35-26 [restartedMain] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-06-17_19-35-26 [restartedMain] INFO  c.c.p.PensionManagementPortalApplication - Started PensionManagementPortalApplication in 5.353 seconds (JVM running for 23.69)
+2021-06-17_19-35-26 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-06-17_19-35-26 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-17_19-35-26 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-06-17_19-35-26 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-06-17_19-35-26 [RMI TCP Connection(24)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-06-17_19-35-26 [RMI TCP Connection(24)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
