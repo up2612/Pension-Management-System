@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.cts.pension.process.exception.AadharNumberNotFound;
@@ -20,6 +21,7 @@ import com.cts.pension.process.service.ProcessPensionServiceImpl;
 import io.swagger.annotations.ApiOperation;
 
 @RestController
+@RequestMapping(value = "/api/v1")
 public class ProcessPensionController {
 
 	@Autowired
@@ -28,7 +30,7 @@ public class ProcessPensionController {
 	@Autowired
 	private AuthorisingClient authorisingClient;
 	
-	@GetMapping("/PensionDetail")
+	@PostMapping("/PensionDetail")
 	@ApiOperation(notes = "Returns the Pension Details", value = "Find the pension details")
 	public PensionDetail getPensionDetail(
 			@RequestHeader(value = "Authorization", required = true) String requestTokenHeader,

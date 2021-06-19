@@ -4,9 +4,17 @@ import java.time.LocalDate;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Data
+@Setter
+@Getter
+@AllArgsConstructor
+@NoArgsConstructor
 public class PensionerDetail {
 
 	private long aadharNumber;
@@ -16,8 +24,7 @@ public class PensionerDetail {
 	private String pan;
 	private double salaryEarned;
 	private double allowances;
-	private boolean isSelfPension;
-	private boolean isFamilyPension;
+	String pensionType;
 	private String bankName;
 	private String accountNumber;
 	private String bankType;

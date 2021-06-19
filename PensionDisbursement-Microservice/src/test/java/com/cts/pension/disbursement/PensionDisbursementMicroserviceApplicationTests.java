@@ -9,5 +9,10 @@ class PensionDisbursementMicroserviceApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
+	
+	@Test
+	void main()
+	{
+		PensionDisbursementMicroserviceApplication.main(new String[] {});
+	}
 }

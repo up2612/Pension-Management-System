@@ -9,5 +9,11 @@ class AuthorizationMicroserviceApplicationTests {
 	@Test
 	void contextLoads() {
 	}
+	
+	@Test
+	void main()
+	{
+		AuthorizationMicroserviceApplication.main(new String[] {});
+	}
 
 }

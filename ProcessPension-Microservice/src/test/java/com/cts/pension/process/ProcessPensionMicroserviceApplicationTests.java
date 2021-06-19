@@ -9,5 +9,10 @@ class ProcessPensionMicroserviceApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
+	
+	@Test
+	void main()
+	{
+		ProcessPensionMicroserviceApplication.main(new String[] {});
+	}
 }

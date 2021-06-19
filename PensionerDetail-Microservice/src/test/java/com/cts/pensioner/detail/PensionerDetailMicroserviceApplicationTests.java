@@ -10,4 +10,9 @@ class PensionerDetailMicroserviceApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void main()
+	{
+		PensionerDetailMicroserviceApplication.main(new String[] {});
+	}
 }

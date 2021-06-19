@@ -1,0 +1,8 @@
+2021-06-18_10-09-20 [http-nio-8300-exec-2] ERROR c.c.p.d.e.GlobalExceptionHandler - handles by handleFeignStatusException
+2021-06-18_10-09-20 [http-nio-8300-exec-2] ERROR c.c.p.d.e.GlobalExceptionHandler - Connection refused: connect executing GET http://localhost:8200/PensionerDetailByAadhaar/420559429029
+2021-06-18_10-09-20 [http-nio-8300-exec-4] ERROR c.c.p.d.e.GlobalExceptionHandler - handles by handleFeignStatusException
+2021-06-18_10-09-20 [http-nio-8300-exec-4] ERROR c.c.p.d.e.GlobalExceptionHandler - Connection refused: connect executing GET http://localhost:8200/PensionerDetailByAadhaar/420559429029
+2021-06-18_10-09-20 [http-nio-8300-exec-6] ERROR c.c.p.d.e.GlobalExceptionHandler - handles by handleFeignStatusException
+2021-06-18_10-09-20 [http-nio-8300-exec-6] ERROR c.c.p.d.e.GlobalExceptionHandler - [400] during [GET] to [http://localhost:8200/PensionerDetailByAadhaar/420559429029] [PensionDisbursementFeignClient#getPensionerDetailByAadhaar(String,long)]: [{"timeStamp":"18-06-2021 10:14:34","status":"BAD_REQUEST","message":"[404] during [POST] to [http://localhost:8400/auth/authorize] [AuthorisingClient#authorizeTheRequest(String)]: [{\"timestamp\":\"2021-06-18T04:44:34.567+00:00\",\"status\":404,\"error\":\"Not Found\",\"message\":\"No message available\",\"path\":\"/auth/authorize\"}]"}]
+2021-06-18_10-09-20 [http-nio-8300-exec-7] ERROR c.c.p.d.e.GlobalExceptionHandler - handles by handleFeignStatusException
+2021-06-18_10-09-20 [http-nio-8300-exec-7] ERROR c.c.p.d.e.GlobalExceptionHandler - Connection refused: connect executing GET http://localhost:8200/PensionerDetailByAadhaar/420559429029
