@@ -32,6 +32,13 @@
 			<div class="content list-container">
 				<h1>Pensioner Details</h1>
 				<div class="container">
+				<c:choose>  
+                    <c:when test="${empty pensionerDetail}">  
+                        <h4 id="msg" style="color:red">Pensioner Details Not found. Please Enter Valid Aadhar Number</h4> 
+                    </c:when>  
+    
+                   <c:otherwise>
+                   
 					<table class="table table-striped">
 						<thead>
 							<tr>
@@ -67,6 +74,8 @@
 								
 						</tbody>
 					</table>
+					</c:otherwise>  
+                    </c:choose>
 					<br>
 					<br>
 					<div align="center">

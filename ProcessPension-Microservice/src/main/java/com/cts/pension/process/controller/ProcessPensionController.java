@@ -1,7 +1,7 @@
 package com.cts.pension.process.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
+
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
@@ -36,13 +36,15 @@ public class ProcessPensionController {
 			@RequestHeader(value = "Authorization", required = true) String requestTokenHeader,
 			@RequestBody PensionerInput pensionerInput) throws AuthorizationException, PensionerDetailException, AadharNumberNotFound
 	{
+		System.out.println("In process pension controller");
 			if(authorisingClient.authorizeTheRequest(requestTokenHeader)) 
 			{
+				System.out.println("Hlllo+++authorization suceess");
 				return processPensionServiceImpl.CalculatePension(requestTokenHeader,pensionerInput);
 			}
 			else
 			{
-				throw new AuthorizationException("Not allowed");
+				throw new AuthorizationException("Not allowed hhhhhhhhhhhhhhhhhh");
 			}
 	}
 
@@ -66,4 +68,5 @@ public class ProcessPensionController {
 	}
 	
 
+	
 }

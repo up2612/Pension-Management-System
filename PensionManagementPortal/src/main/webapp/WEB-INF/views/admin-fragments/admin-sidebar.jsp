@@ -4,10 +4,10 @@
 	<ul class="list-unstyled" id="pageSubmenu">
 	
 	
-	
-	<li><a class="btn btn-xs btn-light" style="color: blue; display: block; padding: 0px; margin: 0px;" href="/portal/showPensionerByAadhar">Find Pensioner Detail</a></li>
-	<li><a style="color: white;" href="/portal/showAllPensioner">Pensioner Detail</a></li>
-	<li><a style="color: white;" href="/portal/logout">Logout</a></li>
+	<li><a href="/portal/showHomePage">Home</a></li>
+	<li><a href="/portal/showPensionerByAadhar">Find Pensioner Detail</a></li>
+	<li><a href="/portal/showAllPensioner">Pensioner Detail</a></li>
+	<li><a href="/portal/logout">Logout</a></li>
 	
 	</ul>
 </div>

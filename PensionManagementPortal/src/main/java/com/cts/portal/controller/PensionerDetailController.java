@@ -34,6 +34,20 @@ public class PensionerDetailController {
 	@Autowired
 	private ProcessPensionFeignClient processPensionFeignClient;
 	
+	
+	
+	@GetMapping("/showHomePage")
+	public String showHomePage()
+	{
+		return "admin-welcome-page";
+	}
+	
+	
+	
+	
+	
+	
+	
 	@GetMapping("/showPensionerByAadhar")
 	public String getPensionerDetailByAadhar()
 	{
@@ -88,10 +102,24 @@ public class PensionerDetailController {
 			ModelAndView login = new ModelAndView("error-page401");
 			return login;
 		}
-		List<PensionerDetail> pensionerDetails = pensionerDetailFeignClient.getAllPensioner((String) request.getSession().getAttribute("Authorization"));
 		ModelAndView model = new ModelAndView("list-of-pensioner");
-		model.addObject("pensionerDetails", pensionerDetails);
+		try
+		{
+			List<PensionerDetail> pensionerDetails = pensionerDetailFeignClient.getAllPensioner((String) request.getSession().getAttribute("Authorization"));
+			
+			model.addObject("pensionerDetails", pensionerDetails);
+			
+		}
+		catch(FeignException exx) {
+			exx.printStackTrace();
+			model.addObject("error","Connection exception. Try Again!");
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+			model.addObject("error","My Exception");
+		}
 		return model;
+		
 	}
 	
 	@GetMapping("/pensionDetails")
@@ -170,11 +198,13 @@ public class PensionerDetailController {
 				model.addObject("processPensionInput",processPensionInput);
 				model.addObject("processPensionResponce",processPensionResponce);
 			}
-			
-			
-			
-			
 		}
+		
+		catch(FeignException exx) {
+			exx.printStackTrace();
+			model.addObject("error","Connection exception. Try Again!");
+		}
+		
 		catch(Exception e)
 		{
 			System.out.println(e);

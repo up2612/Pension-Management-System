@@ -31,9 +31,11 @@ public class ProcessPensionServiceImpl implements ProcessPensionService {
 		System.out.println("Adddhaaaaaaaaaaaar"+pensionerInput.getAadharNumber());
 		
 		PensionerDetail pensionerDetail = null;
+		
 		try
 		{
 			pensionerDetail = pensionerDeatailFeignClient.getPensionerDetailByAadhaar(token, pensionerInput.getAadharNumber());
+			System.out.println("pensionerDetail"+pensionerDetail);
 		}
 		catch (AadharNumberNotFound e) {
 			throw new AadharNumberNotFound("Aadhar Card Number is not Valid. Please check it and try again");

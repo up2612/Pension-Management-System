@@ -57,7 +57,7 @@
 						
 						<div class="form-group">
 							<form:label path="bankCharge">Bank Charge</form:label>
-							<form:input path="bankCharge" class="form-control" id="bankCharge" required="required" />
+							<form:input path="bankCharge" class="form-control" type="number" min="1"  id="bankCharge" required="required" />
 							<form:errors path="bankCharge" />
 						</div>
 						

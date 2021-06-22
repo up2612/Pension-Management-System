@@ -20,8 +20,16 @@ public class PensionDisbursementServiceImpl implements PensionDisbursementServic
 	@Override
 	public ProcessPensionResponse getResponce(String token,ProcessPensionInput processPensionInput) throws AuthorizationException, AadharNumberNotFound
 	{
-		PensionerDetail pensionerDetail = pensionDisbursementFeignClient.getPensionerDetailByAadhaar(token, processPensionInput.getAadharNumber());
-		
+		PensionerDetail pensionerDetail = null;
+		try
+		{
+		pensionerDetail = pensionDisbursementFeignClient.getPensionerDetailByAadhaar(token, processPensionInput.getAadharNumber());
+		}
+		catch(AadharNumberNotFound e)
+		{
+			throw new AadharNumberNotFound("Aadhar Number Not found");
+			
+		}
 		ProcessPensionResponse processPensionResponse = new ProcessPensionResponse();
 		double serviceCharge = processPensionInput.getBankCharge();
 		

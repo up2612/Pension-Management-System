@@ -1,58 +1,98 @@
 package com.cts.pensioner.detail.controller;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-
-import java.time.LocalDate;
-import java.util.Optional;
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.mockito.Mockito.when;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 import org.junit.jupiter.api.Test;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
-import org.mockito.Mockito;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.test.web.servlet.MockMvc;
 
-import com.cts.pensioner.detail.exception.AadharNumberNotFound;
-import com.cts.pensioner.detail.exception.AuthorizationException;
 import com.cts.pensioner.detail.feignclient.AuthorisingClient;
-import com.cts.pensioner.detail.model.PensionerDetail;
-import com.cts.pensioner.detail.repository.PensionerDetailRepository;
-import com.cts.pensioner.detail.service.PensionerDetailServiceImpl;
 
+
+@AutoConfigureMockMvc
 @SpringBootTest
 public class PensionerDetailControllerTest {
 
-	@Mock
+	
+	
+	
+	@MockBean
 	private AuthorisingClient authorisingClient;
 	
-	@InjectMocks
-	private PensionerDetailController pensionerDetailController;
 	
-	@InjectMocks
-	private PensionerDetailServiceImpl pensionerDetailServiceImpl;
+	@Autowired
+	private MockMvc mockMvc;
 	
-	@Mock
-	private PensionerDetailRepository pensionerDetailRepository;
 	@Test
-	public void testToken()
-	{
-		String token = "dummy";
-		Mockito.when(authorisingClient.authorizeTheRequest(token)).thenReturn(true);
+	void testClientNotNull() {
+		assertThat(authorisingClient).isNotNull();
 	}
 	
-//	@Test
-//	public void testGetPensionerDetailByAadhar() throws AuthorizationException, AadharNumberNotFound
-//	{
-//		String token = "dummy";
-//		PensionerDetail pensionerDetail = new PensionerDetail(420559429029l, "Parthik", LocalDate.of(1999, 12, 03), "BSDPS1495K", 29000, 1200, "self", "SBI", "9029486523", "private");
-//		
-//		Mockito.when(authorisingClient.authorizeTheRequest(token)).thenReturn(true);
-//		Mockito.when(pensionerDetailServiceImpl.getPensionerDetailByAadharCard(token, 420559429029l)).thenReturn(pensionerDetail);
-//		Mockito.when(pensionerDetailRepository.findById(420559429029l)).thenReturn(Optional.of(pensionerDetail));
-//		
-//		assertNotNull(pensionerDetailServiceImpl.getPensionerDetailByAadharCard(token, 420559429029l));
-//		assertEquals(pensionerDetailServiceImpl.getPensionerDetailByAadharCard(token,420559429029l),pensionerDetail);
-//		//Mockito.when(pensionerDetailController.getPensionerDetailByAadhar(token, 420559429029l)).thenReturn(pensionerDetail);
-//		assertEquals(pensionerDetailController.getPensionerDetailByAadhar(token, 420559429029l), pensionerDetail);
-//	}
+	@Test
+	void testMockMvcNotNull() {
+		assertThat(mockMvc).isNotNull();
+	}
+
+	
+	  @Test 
+	  void testGetResponse() throws Exception
+	  {
+		  when(authorisingClient.authorizeTheRequest("Bearer @token@token")).thenReturn(true);
+		  mockMvc.perform(get("/api/v1/PensionerDetailByAadhaar/420559429029").header("Authorization", "Bearer @token@token"))
+				.andExpect(status().isOk());
+	  }
+	  
+	  @Test 
+	  void testGetResponseWrongAuthorization() throws Exception
+	  {
+		  when(authorisingClient.authorizeTheRequest("Bearer @token@token")).thenReturn(false);
+		  mockMvc.perform(get("/api/v1/PensionerDetailByAadhaar/420559429029").header("Authorization", "Bearer @token@token"))
+				.andExpect(status().isForbidden());
+	  }
+	  @Test 
+	  void testGetResponseAadharNotFound() throws Exception
+	  {
+		  when(authorisingClient.authorizeTheRequest("Bearer @token@token")).thenReturn(true);
+		  mockMvc.perform(get("/api/v1/PensionerDetailByAadhaar/420559429020").header("Authorization", "Bearer @token@token"))
+				.andExpect(status().isNotFound());
+	  }
+	  
+	  @Test 
+	  void testGetResponseBadRequest() throws Exception
+	  {
+		  //when(authorisingClient.authorizeTheRequest("Bearer @token@token")).thenReturn(true);
+		  mockMvc.perform(get("/api/v1/PensionerDetailByAadhaar/420559429029")).andExpect(status().isBadRequest());
+	  }
+
+	  @Test 
+	  void testGetAllPensioner() throws Exception
+	  {
+		  when(authorisingClient.authorizeTheRequest("Bearer @token@token")).thenReturn(true);
+		  mockMvc.perform(get("/api/v1/getAllPensioner").header("Authorization", "Bearer @token@token"))
+				.andExpect(status().isOk());
+	  }
+	  
+	  @Test 
+	  void testGetAllPensionerWrongAuthorization() throws Exception
+	  {
+		  when(authorisingClient.authorizeTheRequest("Bearer @token@token")).thenReturn(false);
+		  mockMvc.perform(get("/api/v1/getAllPensioner").header("Authorization", "Bearer @token@token"))
+				.andExpect(status().isForbidden());
+	  }
+	  
+	  @Test 
+	  void testGetAllPensionerBadRequest() throws Exception
+	  {
+		//  when(authorisingClient.authorizeTheRequest("Bearer @token@token")).thenReturn(true);
+		  mockMvc.perform(get("/api/v1/getAllPensioner"))
+				.andExpect(status().isBadRequest());
+	  }
+
+	
 }

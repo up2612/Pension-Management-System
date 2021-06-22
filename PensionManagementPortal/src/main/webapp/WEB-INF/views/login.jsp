@@ -68,9 +68,10 @@
 			</div>
 		</div>
 
+<!--  
 		<%@ include file="fragments/about.jsp"%>
-		<%@ include file="fragments/contact.jsp"%>
-
+	<%@ include file="fragments/contact.jsp"%>
+-->
 		<%@ include file="fragments/footer.jsp"%>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

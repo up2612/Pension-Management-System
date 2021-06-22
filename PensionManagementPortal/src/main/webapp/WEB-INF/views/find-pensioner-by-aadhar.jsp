@@ -39,7 +39,7 @@
 					<form action="getPensionerByAadhar" method="get">
 						<div class="form-group">
 							<label id="aadhar">Enter AadharCard Number:</label>
-							 <input type="text" id="aadhar" name="aadhar"/>
+							<input type="text" id="aadhar" name="aadhar" pattern="[0-9]{12}" oninvalid="this.setCustomValidity('Number should be of 12 digits')" oninput="this.setCustomValidity('')" required/>
 							<input class="btn btn-primary" type="submit" value="Find" />
 						</div>
  					</form>

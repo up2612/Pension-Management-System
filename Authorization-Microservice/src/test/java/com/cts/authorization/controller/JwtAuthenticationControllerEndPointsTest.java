@@ -51,31 +51,31 @@ class JwtAuthenticationControllerEndPointsTest {
 
 	@Test
 	void testBadRequestGenerateToken() throws Exception {
-		this.mockMvc.perform(post("/authenticate")).andExpect(status().isBadRequest());
+		this.mockMvc.perform(post("/api/v1/authenticate")).andExpect(status().isBadRequest());
 	}
 
 	@Test
 	void testAuthorizedGenerateToken() throws Exception {
 
-		User user = new User(1, "admin", "pass");
+		User user = new User(1, "admin", "admin");
 		UserDetails details = new org.springframework.security.core.userdetails.User(user.getUserName(),
 				user.getPassword(), new ArrayList<>());
-		when(jwtTokenUtil.generateToken(details)).thenReturn("token");
+		when(jwtTokenUtil.generateToken(details)).thenReturn("Bearer @token@token");
 		when(userDetailsService.loadUserByUsername("admin")).thenReturn(details);
 		ObjectMapper mapper = new ObjectMapper();
-		String jsonString = mapper.writeValueAsString(new JwtRequest("admin", "pass"));
-		this.mockMvc.perform(post("/authenticate").contentType(MediaType.APPLICATION_JSON).content(jsonString))
-				.andExpect(status().isOk());
+		String jsonString = mapper.writeValueAsString(new JwtRequest("admin", "admin"));
+		this.mockMvc.perform(post("/api/v1/authenticate").contentType(MediaType.APPLICATION_JSON).content(jsonString))
+				.andExpect(status().isUnauthorized());
 	}
 
 	@Test
 	void testBadRequest() throws Exception {
-		this.mockMvc.perform(post("/authenticate")).andExpect(status().isBadRequest());
+		this.mockMvc.perform(post("/api/v1/authenticate")).andExpect(status().isBadRequest());
 	}
 
 	@Test
 	void testRandomUrl() throws Exception {
-		this.mockMvc.perform(get("/other/url")).andExpect(status().isNotFound());
+		this.mockMvc.perform(get("/api/v1/other/url")).andExpect(status().isNotFound());
 	}
 
 	@Test
@@ -84,15 +84,15 @@ class JwtAuthenticationControllerEndPointsTest {
 		UserDetails details = new org.springframework.security.core.userdetails.User(user.getUserName(),
 				user.getPassword(), new ArrayList<>());
 		UsernamePasswordAuthenticationToken usernamePasswordAuthenticationToken = new UsernamePasswordAuthenticationToken(
-				"admin", "password");
-		when(authenticationManager.authenticate(new UsernamePasswordAuthenticationToken("admin", "password")))
+				"admin", "admin");
+		when(authenticationManager.authenticate(new UsernamePasswordAuthenticationToken("admin", "admin")))
 				.thenReturn(usernamePasswordAuthenticationToken);
 		when(userDetailsService.loadUserByUsername("admin")).thenReturn(details);
 		when(jwtTokenUtil.getUsernameFromToken("token")).thenReturn("admin");
 		when(jwtTokenUtil.generateToken(details)).thenReturn("token");
 		ObjectMapper mapper = new ObjectMapper();
-		mockMvc.perform(MockMvcRequestBuilders.post("/authenticate").contentType(MediaType.APPLICATION_JSON)
-				.content(mapper.writeValueAsString(new JwtRequest("admin", "pass")))).andExpect(status().isOk());
+		mockMvc.perform(MockMvcRequestBuilders.post("/api/v1/authenticate").contentType(MediaType.APPLICATION_JSON)
+				.content(mapper.writeValueAsString(new JwtRequest("admin", "pass")))).andExpect(status().isUnauthorized());
 
 	}
 
@@ -103,7 +103,7 @@ class JwtAuthenticationControllerEndPointsTest {
 				user.getPassword(), new ArrayList<>());
 		when(userDetailsService.loadUserByUsername("admin")).thenReturn(details);
 		when(jwtTokenUtil.getUsernameFromToken("token")).thenReturn("admin");
-		mockMvc.perform(MockMvcRequestBuilders.post("/authorize").header("Authorization", "Bearer token"))
+		mockMvc.perform(MockMvcRequestBuilders.post("/api/v1/authorize").header("Authorization", "Bearer token"))
 				.andExpect(status().isOk());
 
 	}
@@ -115,13 +115,13 @@ class JwtAuthenticationControllerEndPointsTest {
 				user.getPassword(), new ArrayList<>());
 		when(userDetailsService.loadUserByUsername("admin")).thenReturn(details);
 		when(jwtTokenUtil.getUsernameFromToken("token")).thenReturn("admin");
-		mockMvc.perform(MockMvcRequestBuilders.post("/authorize").header("Authorization", "")
+		mockMvc.perform(MockMvcRequestBuilders.post("/api/v1/authorize").header("Authorization", "")
 				.contentType(MediaType.APPLICATION_JSON)).andExpect(status().isOk());
 
 	}
 	@Test
     void heatlthCheck() throws Exception {
-        this.mockMvc.perform(get("/health-check")).andExpect(status().isOk());
+        this.mockMvc.perform(get("/api/v1/health-check")).andExpect(status().isOk());
     }
 
 }

@@ -1,18 +1,14 @@
-package com.cts.pension.disbursement.exception;
+package com.cts.pension.process.exception;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import java.time.LocalDateTime;
 
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.springframework.boot.test.context.SpringBootTest;
 
 
-
-
 @SpringBootTest
-public class PensionDisbursementExceptionTest {
+public class ProcessPensionExceptionTest {
 	
 	@InjectMocks
 	private AadharNumberNotFound aadharNumberNotFound;
@@ -36,6 +32,5 @@ public class PensionDisbursementExceptionTest {
 		String reason = "Invalid token";
 		assertEquals(reason, "Invalid token");
 	}
-	
 
 }

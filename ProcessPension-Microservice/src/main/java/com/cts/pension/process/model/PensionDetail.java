@@ -5,16 +5,19 @@ import java.time.LocalDate;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
+
 import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Getter
+@Data
 @Setter
+@Getter
 @AllArgsConstructor
 @NoArgsConstructor
-//@Entity
 public class PensionDetail {
 
 	

@@ -8,7 +8,7 @@
 	<div class="navbar navbar-expand-lg navbar-light ">
 		<div class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
 		
-			<center>	<a class="navbar-brand" href="#"> Pension Management System</a> </center>
+			<center>	<a class="navbar-brand" href="/portal/showHomePage"> Pension Management System</a> </center>
 		</div>
 
 

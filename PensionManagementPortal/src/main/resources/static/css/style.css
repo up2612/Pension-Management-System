@@ -219,6 +219,9 @@ img
     background-color: var(--white);
     color: var(--green);
 }
+#msg{
+	text-align: center;
+}
 .line {
     border-top: 1px solid var(--green);
 }

@@ -35,9 +35,9 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
 	
 	@ExceptionHandler(AadharNumberNotFound.class)
 	public ResponseEntity<ExceptionDetails> handleMissingRequestHeaderException(AadharNumberNotFound ex){
-		ExceptionDetails exceptionDetail = new ExceptionDetails(LocalDateTime.now(), HttpStatus.BAD_REQUEST, ex.getMessage());
+		ExceptionDetails exceptionDetail = new ExceptionDetails(LocalDateTime.now(), HttpStatus.NOT_FOUND, ex.getMessage());
 		log.error(ex.getMessage());
-		return new ResponseEntity<>(exceptionDetail, HttpStatus.BAD_REQUEST);
+		return new ResponseEntity<>(exceptionDetail, HttpStatus.NOT_FOUND);
 	}
 	
 	@ExceptionHandler(FeignException.class)

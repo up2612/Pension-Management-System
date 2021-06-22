@@ -27,7 +27,7 @@ public class PensionDisbursementServiceTest {
 	private PensionDisbursementFeignClient pensionDisbursementFeignClient;
 	
 	@Test
-	public void testGetResponce10() throws AuthorizationException, AadharNumberNotFound
+	public void testGetResponcePrivate10() throws AuthorizationException, AadharNumberNotFound
 	{
 		String token = "dummy";
 		PensionerDetail pensionerDetail = new PensionerDetail(420559429029l, "Parthik", LocalDate.of(1999, 12, 03), "BSDPS1495K", 29000, 1200, "self", "SBI", "9029486523", "private");
@@ -39,7 +39,7 @@ public class PensionDisbursementServiceTest {
 	}
 	
 	@Test
-	public void testGetResponce21() throws AuthorizationException, AadharNumberNotFound
+	public void testGetResponcePrivate21() throws AuthorizationException, AadharNumberNotFound
 	{
 		String token = "dummy";
 		PensionerDetail pensionerDetail = new PensionerDetail(420559429029l, "Parthik", LocalDate.of(1999, 12, 03), "BSDPS1495K", 29000, 1200, "self", "SBI", "9029486523", "private");
